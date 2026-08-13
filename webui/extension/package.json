@@ -1,10 +1,10 @@
 {
   "name": "gptme-extension",
   "version": "0.1.0",
-  "description": "gptme browser extension — ask gptme about anything on the web",
+  "description": "gptme browser extension \u2014 ask gptme about anything on the web",
   "private": true,
   "scripts": {
-    "build": "bash build.sh",
+    "build": "node init && bash build.sh",
     "watch": "bash build.sh --watch"
   },
   "devDependencies": {
